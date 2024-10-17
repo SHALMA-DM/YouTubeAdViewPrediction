@@ -45,19 +45,13 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/SHALMA-DM/YouTubeAdViewPrediction.git
 cd YouTubeAdViewPrediction
 Install the required dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Run the project:
 
-bash
-Copy code
 python YouTube\ Prediction.py
 Visualizations
 The repository contains the following visualizations to help understand the dataset:
