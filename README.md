@@ -47,12 +47,15 @@ Clone the repository:
 
 git clone https://github.com/SHALMA-DM/YouTubeAdViewPrediction.git
 cd YouTubeAdViewPrediction
+
 Install the required dependencies:
 
 pip install -r requirements.txt
+
 Run the project:
 
 python YouTube\ Prediction.py
+
 Visualizations
 The repository contains the following visualizations to help understand the dataset:
 
