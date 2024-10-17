@@ -1,6 +1,6 @@
 This repository contains a project that predicts YouTube video adviews using machine learning models. The goal of the project is to use various attributes of YouTube videos to estimate the number of adviews. Different regression models and an Artificial Neural Network (ANN) were trained and compared to predict the adviews accurately.
 
-Files in the Repository:
+**Files in the Repository:**
 YouTube Prediction.py: The main Python script that contains the code for preprocessing the data, training the models, and making predictions.
 ann_youtubeadview.keras: Saved model file for the trained Artificial Neural Network (ANN).
 boxplot_numeric_columns.png: A boxplot visualization of the numeric columns in the dataset.
@@ -8,17 +8,17 @@ category_histogram.png: A histogram visualization showing the distribution of vi
 decisiontree_youtubeadview.joblib: Saved model file for the trained Decision Tree Regressor.
 test_predictions.csv: CSV file containing the predictions made by the models on the test set.
 
-Project Overview:
+#**Project Overview:**
 The project uses a dataset containing YouTube video attributes like views, likes, dislikes, comments, and more to predict the number of adviews. Several regression models were trained on this dataset to find the one that yields the best results.
 
-Models Implemented:
+#**Models Implemented:**
    Linear Regression
    Decision Tree Regressor
    Random Forest Regressor
    Support Vector Regressor
    Artificial Neural Network (ANN)
 
-Data Preprocessing:
+#**Data Preprocessing:**
 The dataset includes features like:
    vidid: Video ID (ignored during modeling).
    adview: The target variable representing the number of adviews.
@@ -29,7 +29,7 @@ The dataset includes features like:
    published: Date when the video was published.
    duration: Duration of the video.
    category: Category of the video.
-Steps:
+#**Steps:**
     >Converted non-numeric values such as video duration to a numeric format.
     >Transformed and cleaned the categorical columns.
     >Handled missing values and outliers in the data.
@@ -47,6 +47,7 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 git clone https://github.com/SHALMA-DM/YouTubeAdViewPrediction.git
+
 cd YouTubeAdViewPrediction
 
 Install the required dependencies:
